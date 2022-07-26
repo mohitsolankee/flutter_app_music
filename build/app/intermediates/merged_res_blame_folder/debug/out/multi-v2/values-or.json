@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/macbookpro/Downloads/flutter_app_music/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-or/values-or.xml",
+            "map": [
+                {
+                    "source": "/Users/macbookpro/.gradle/caches/transforms-2/files-2.1/b9a960218f5163997c0fdfa3d3078c0e/core-1.7.0/res/values-or/values-or.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "7",
+                        "startColumns": "4",
+                        "startOffsets": "621",
+                        "endColumns": "100",
+                        "endOffsets": "717"
+                    }
+                },
+                {
+                    "source": "/Users/macbookpro/.gradle/caches/transforms-2/files-2.1/ceed3f2a94aa97e10ce61a44d59bd533/jetified-media2-session-1.2.0/res/values-or/values-or.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,158,261,358,486",
+                        "endColumns": "102,102,96,127,134",
+                        "endOffsets": "153,256,353,481,616"
+                    }
+                }
+            ]
+        }
+    ]
+}

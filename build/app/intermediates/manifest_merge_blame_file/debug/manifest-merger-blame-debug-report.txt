@@ -1,0 +1,97 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.flutter_app_music"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="31" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/macbookpro/Downloads/flutter_app_music/android/app/src/debug/AndroidManifest.xml:6:5-66
+14-->/Users/macbookpro/Downloads/flutter_app_music/android/app/src/debug/AndroidManifest.xml:6:22-64
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[com.google.android.exoplayer:exoplayer-core:2.17.1] /Users/macbookpro/.gradle/caches/transforms-2/files-2.1/f81d7720190f110f0e5c11d71f550860/jetified-exoplayer-core-2.17.1/AndroidManifest.xml:24:5-79
+15-->[com.google.android.exoplayer:exoplayer-core:2.17.1] /Users/macbookpro/.gradle/caches/transforms-2/files-2.1/f81d7720190f110f0e5c11d71f550860/jetified-exoplayer-core-2.17.1/AndroidManifest.xml:24:22-76
+16
+17    <queries>
+17-->[androidx.media2:media2-session:1.2.0] /Users/macbookpro/.gradle/caches/transforms-2/files-2.1/ceed3f2a94aa97e10ce61a44d59bd533/jetified-media2-session-1.2.0/AndroidManifest.xml:24:5-34:15
+18        <intent>
+18-->[androidx.media2:media2-session:1.2.0] /Users/macbookpro/.gradle/caches/transforms-2/files-2.1/ceed3f2a94aa97e10ce61a44d59bd533/jetified-media2-session-1.2.0/AndroidManifest.xml:25:9-27:18
+19            <action android:name="android.media.browse.MediaBrowserService" />
+19-->[androidx.media2:media2-session:1.2.0] /Users/macbookpro/.gradle/caches/transforms-2/files-2.1/ceed3f2a94aa97e10ce61a44d59bd533/jetified-media2-session-1.2.0/AndroidManifest.xml:26:13-79
+19-->[androidx.media2:media2-session:1.2.0] /Users/macbookpro/.gradle/caches/transforms-2/files-2.1/ceed3f2a94aa97e10ce61a44d59bd533/jetified-media2-session-1.2.0/AndroidManifest.xml:26:21-76
+20        </intent>
+21        <intent>
+21-->[androidx.media2:media2-session:1.2.0] /Users/macbookpro/.gradle/caches/transforms-2/files-2.1/ceed3f2a94aa97e10ce61a44d59bd533/jetified-media2-session-1.2.0/AndroidManifest.xml:28:9-30:18
+22            <action android:name="androidx.media2.session.MediaSessionService" />
+22-->[androidx.media2:media2-session:1.2.0] /Users/macbookpro/.gradle/caches/transforms-2/files-2.1/ceed3f2a94aa97e10ce61a44d59bd533/jetified-media2-session-1.2.0/AndroidManifest.xml:29:13-82
+22-->[androidx.media2:media2-session:1.2.0] /Users/macbookpro/.gradle/caches/transforms-2/files-2.1/ceed3f2a94aa97e10ce61a44d59bd533/jetified-media2-session-1.2.0/AndroidManifest.xml:29:21-79
+23        </intent>
+24        <intent>
+24-->[androidx.media2:media2-session:1.2.0] /Users/macbookpro/.gradle/caches/transforms-2/files-2.1/ceed3f2a94aa97e10ce61a44d59bd533/jetified-media2-session-1.2.0/AndroidManifest.xml:31:9-33:18
+25            <action android:name="androidx.media2.session.MediaLibraryService" />
+25-->[androidx.media2:media2-session:1.2.0] /Users/macbookpro/.gradle/caches/transforms-2/files-2.1/ceed3f2a94aa97e10ce61a44d59bd533/jetified-media2-session-1.2.0/AndroidManifest.xml:32:13-82
+25-->[androidx.media2:media2-session:1.2.0] /Users/macbookpro/.gradle/caches/transforms-2/files-2.1/ceed3f2a94aa97e10ce61a44d59bd533/jetified-media2-session-1.2.0/AndroidManifest.xml:32:21-79
+26        </intent>
+27    </queries>
+28
+29    <application
+30        android:name="android.app.Application"
+31        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+31-->[androidx.core:core:1.7.0] /Users/macbookpro/.gradle/caches/transforms-2/files-2.1/b9a960218f5163997c0fdfa3d3078c0e/core-1.7.0/AndroidManifest.xml:24:18-86
+32        android:debuggable="true"
+33        android:icon="@mipmap/ic_launcher"
+34        android:label="flutter_app_music" >
+35        <activity
+36            android:name="com.example.flutter_app_music.MainActivity"
+37            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+38            android:exported="true"
+39            android:hardwareAccelerated="true"
+40            android:launchMode="singleTop"
+41            android:theme="@style/LaunchTheme"
+42            android:windowSoftInputMode="adjustResize" >
+43
+44            <!--
+45                 Specifies an Android theme to apply to this Activity as soon as
+46                 the Android process has started. This theme is visible to the user
+47                 while the Flutter UI initializes. After that, this theme continues
+48                 to determine the Window background behind the Flutter UI.
+49            -->
+50            <meta-data
+51                android:name="io.flutter.embedding.android.NormalTheme"
+52                android:resource="@style/NormalTheme" />
+53
+54            <intent-filter>
+55                <action android:name="android.intent.action.MAIN" />
+56
+57                <category android:name="android.intent.category.LAUNCHER" />
+58            </intent-filter>
+59        </activity>
+60        <!--
+61             Don't delete the meta-data below.
+62             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+63        -->
+64        <meta-data
+65            android:name="flutterEmbedding"
+66            android:value="2" />
+67
+68        <uses-library
+68-->[androidx.window:window:1.0.0-beta04] /Users/macbookpro/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+69            android:name="androidx.window.extensions"
+69-->[androidx.window:window:1.0.0-beta04] /Users/macbookpro/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+70            android:required="false" />
+70-->[androidx.window:window:1.0.0-beta04] /Users/macbookpro/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+71        <uses-library
+71-->[androidx.window:window:1.0.0-beta04] /Users/macbookpro/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+72            android:name="androidx.window.sidecar"
+72-->[androidx.window:window:1.0.0-beta04] /Users/macbookpro/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+73            android:required="false" />
+73-->[androidx.window:window:1.0.0-beta04] /Users/macbookpro/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+74    </application>
+75
+76</manifest>
