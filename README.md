@@ -1,22 +1,26 @@
-# flutter_app_music
+# Music player built with Flutter. 
 
-A new Flutter application.
+# Features
 
-## Getting Started
+List of songs
 
-This project is a starting point for a Flutter application.
+Play / stop / pause
 
-A few resources to get you started if this is your first Flutter project:
+Previous / Next
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+onDuration / onCurrentPosition
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Album details
 
+# State management 
+
+Cubit State management with flutter modular for navigation and used flutter freezed package for code generation.
 
 
 
 https://user-images.githubusercontent.com/22033934/181040074-ec973f0e-f72c-4612-a5b1-a7b2d90da8cd.mov
+
+
+
+
 
